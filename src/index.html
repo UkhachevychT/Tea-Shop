@@ -21,19 +21,22 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item active">
-                <a class="nav-link" href="#">About</span></a>
+                <a class="nav-link" href="#about">About</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#features">Features</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Reviews</a>
+                <a class="nav-link" href="#QuoteCarousel">Reviews</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Tea Selection</a>
+                <a class="nav-link" href="#selection">Tea Selection</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="#email">Sign Up</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacts">Contacts</a>
               </li>
             </ul>
           </div>
@@ -83,14 +86,14 @@
     </div>
 
     <!-- About -->
-    <div class="about container">
+    <div id="about" class="about container">
       <h1 class="display-4">About Tea Shop</h1>
-      <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi recusandae, quae blanditiis nulla hic, ipsam odio repellendus omnis quas, quia qui animi laudantium ex itaque iste reiciendis! Ut accusantium dolorem dolores sint, fugiat obcaecati error nemo atque qui vitae quam deleniti nesciunt cumque illo, id cum laudantium iste porro ex impedit reprehenderit eum quidem? Fuga corrupti repellat molestias non excepturi debitis officia iusto quibusdam? Voluptatem distinctio, voluptas suscipit est dolores tempore rem, adipisci laborum odit minus porro nulla placeat quia, accusamus eius nostrum! Minus fuga commodi magnam, facilis omnis tempora maxime magni? Dolore qui pariatur maxime unde eveniet expedita aperiam.</p>
+      <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi recusandae, quae blanditiis nulla hic, ipsam odio repellendus omnis quas, quia qui animi laudantium ex itaque iste reiciendis! Ut accusantium dolorem dolores sint, fugiat obcaecati error nemo atque qui vitae quam deleniti nesciunt cumque illo, id cum laudantium iste porro ex impedit reprehenderit eum quidem? Fuga corrupti repellat molestias non excepturi debitis officia iusto quibusdam? Voluptatem distinctio, voluptas suscipit est dolores tempore rem, adipisci laborum odit minus porro nulla placeat quia, accusamus eius nostrum! Minus fuga commodi magnam, facilis omnis tempora maxime magni? Dolore qui pariatur maxime unde eveniet expedita aperiam.</p>
     </div>
   
     
     <!-- Portfolio -->
-    <div class="portfolio-placeholder"></div>
+    <div id="features" class="portfolio-placeholder"></div>
 
 
 
@@ -106,20 +109,20 @@
       <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
           <div class="carousel-caption d-none d-md-block">
-            <h3 class="display-4">First Quote</h3>
-            <q class="lead">This is a description for the first slide.</q>
+            <h3 class="display-6">First Quote</h3>
+            <q class="display-4 lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.</q>
           </div>
         </div>
         <div class="carousel-item">
           <div class="carousel-caption d-none d-md-block">
-            <h3 class="display-4">Second Quote</h3>
-            <q class="lead">This is a description for the second slide.</q>
+            <h3 class="display-6">Second Quote</h3>
+            <q class="display-4 lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.</q>
           </div>
         </div>
         <div class="carousel-item">
           <div class="carousel-caption d-none d-md-block">
-            <h3 class="display-4">Third Quote</h3>
-            <q class="lead">This is a description for the third slide.</q>
+            <h3 class="display-6">Third Quote</h3>
+            <q class="display-4 lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.</q>
           </div>
         </div>
       </div>
@@ -137,25 +140,31 @@
 
 
     <!-- Tea Selection -->
-    <div class="selection-placeholder"></div>
+    <div id="selection" class="selection-placeholder"></div>
 
     <!-- Email -->
-    <div class="paralax">
+    <div id="email" class="paralax">
       <div class="subscribtion">
         <div class="subscribtion-form">
             <h1>SUBSCRIBE TO OUR NEWSLETTER</h1>
             <h3>Lorem ipsum dolor sit amet.</h3>
-          <div class="form">
+              <div class="input-group mb-6">
+                <input type="text" class="form-control" placeholder="Email">
+                <div class="input-group-append">
+                  <button type="submit" class="btn btn-light">Subscribe</button>
+                </div>
+              </div>
+          <!-- <div class="form">
             <input type="text" placeholder="Email">
-            <button type="submit">Subscribe</button>
-          </div>
+            <button type="submit" class="btn btn-light">Subscribe</button>
+          </div> -->
         </div>
       </div>
     </div>
 
 
     <footer class="container">
-      <div class="summary">
+      <div id="contacts" class="summary">
         <div class="summary-item">
             <h6 class="text-uppercase font-weight-bold">Tea-Shop</h6>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto fuga atque, recusandae veniam, pariatur rerum nam dolor culpa illum.</p>
@@ -164,16 +173,16 @@
         <div class="summary-item">
             <h6 class="text-uppercase font-weight-bold">Products</h6>
             <p>
-              <a href="#!">Tea1</a>
+              <a href="#selection">Tea1</a>
             </p>
             <p>
-              <a href="#!">Tea2</a>
+              <a href="#selection">Tea2</a>
             </p>
             <p>
-              <a href="#!">Tea3</a>
+              <a href="#selection">Tea3</a>
             </p>
             <p>
-              <a href="#!">Tea4</a>
+              <a href="#selection">Tea4</a>
             </p>
         </div>
 
@@ -220,10 +229,11 @@
               </a>
             </div>
             <div class="portfolio-text">
-              <h3>{{PortfolioTitle}}</h3>
+              <h3 class="display-4">{{PortfolioTitle}}</h3>
               <p>{{PortfolioText}}</p>
             </div>
           </div>
+          <hr>
         {{/PortfolioList}}
       {{/each}}
     </div>
@@ -237,7 +247,7 @@
         {{#selectionList}}
           <div class="selection-item">
             <img src="{{selectionImg}}" alt="">
-            <h1>{{selectionTitle}}</h1>
+            <h3 class="display-6">{{selectionTitle}}</h3>
             <p>{{selectionText}}</p>
           </div>
         {{/selectionList}}

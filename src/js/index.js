@@ -9,21 +9,21 @@ $(function () {
     {
         PortfolioList: [
             {
-              PortfolioTitle: "Project One",
+              PortfolioTitle: "Feature One",
               PortfolioText: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum itaque molestiae a impedit deserunt praesentium reprehenderit, eaque ipsa fuga quas dicta illo vel, porro ullam tempore dolores iste? Dicta, provident ab rem repudiandae quis maxime voluptatibus culpa assumenda neque commodi!",
-              PortfolioImg: "img/portfolio-1.jpg",
+              PortfolioImg: "img/feature-1.jpg",
               PortfolioStyle: "portfolioLeft"
             },
             {
-              PortfolioTitle: "Project Two",
+              PortfolioTitle: "Feature Two",
               PortfolioText: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum itaque molestiae a impedit deserunt praesentium reprehenderit, eaque ipsa fuga quas dicta illo vel, porro ullam tempore dolores iste? Dicta, provident ab rem repudiandae quis maxime voluptatibus culpa assumenda neque commodi!",
-              PortfolioImg: "img/portfolio-2.jpg",
+              PortfolioImg: "img/feature-2.jpg",
               PortfolioStyle: "portfolioRight"
             },
             {
-              PortfolioTitle: "Project Thre",
+              PortfolioTitle: "Feature Three",
               PortfolioText: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum itaque molestiae a impedit deserunt praesentium reprehenderit, eaque ipsa fuga quas dicta illo vel, porro ullam tempore dolores iste? Dicta, provident ab rem repudiandae quis maxime voluptatibus culpa assumenda neque commodi!",
-              PortfolioImg: "img/portfolio-3.jpg",
+              PortfolioImg: "img/feature-3.jpg",
               PortfolioStyle: "portfolioLeft"
             }
         ]

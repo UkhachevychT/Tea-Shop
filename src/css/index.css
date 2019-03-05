@@ -9,6 +9,11 @@ img {
   max-height: 100%;
 }
 
+h1,h2,h3,h4,h5,h6,p {
+  margin-bottom:20px;
+  color:#fafafa;
+}
+
 .navbar-default {
   position:fixed;
   top: 0;
@@ -17,10 +22,6 @@ img {
 	background-color: rgba(0,0,0,.9);
 	z-index:99;
 	text-align:center;
-}
-.navbar-default .dropdown-menu {
-	background-color: rgba(0,0,0,.9);
-
 }
 
 .navbar-default a {
@@ -52,7 +53,7 @@ img {
 
 #QuoteCarousel {
   height: 40vh;
-  background-image: url("../img/paralax-3.jpg");
+  background-image: url("../img/paralax-1.jpg");
 }
 
 #QuoteCarousel .carousel-item {
@@ -66,14 +67,6 @@ img {
 }
 
 .paralax {
-  /*
-  background:
- 
-        linear-gradient(
-          rgba(0, 0, 0, 0.5), 
-          rgba(0, 0, 0, 0.5)
-        ),
-        url(../img/email.jpg); */
 	height: 70vh;
 	background-attachment: fixed;
   background-position: center;
@@ -125,6 +118,9 @@ img {
   flex-wrap:wrap;
   justify-content:space-evenly;
 }
+.selection-item{
+  text-align: center;
+}
 
 .selection-item img{
   height: 240px;
@@ -146,10 +142,28 @@ img {
   text-align: center;
 }
 
-
+.about{
+  min-height: 40vh;
+}
+.about h1{
+  margin: 10px;
+  text-align: center;
+}
 footer{
   display: flex;
   flex-direction: column;
+}
+footer a{
+  text-decoration:none;
+	color:#fafafa;
+}
+footer a:hover {
+	color:#a0a0a0;
+	transition: all.4s ease;
+	-cr-transition: all.4s ease;
+	-o-transition: all.4s ease;
+	-moz-transition: all.4s ease;
+	-webkit-transition: all.4s ease;
 }
 .summary{
   display: flex;
