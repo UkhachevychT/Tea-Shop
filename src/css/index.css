@@ -4,6 +4,7 @@ html, body {
   color:#fafafa;
   margin: 5px 0 5px 0;
 }
+
 img {
   max-width: 100%;
   max-height: 100%;
@@ -30,6 +31,7 @@ h1,h2,h3,h4,h5,h6,p {
 	margin-left:30px;
 	line-height:50px;
 }
+
 .navbar-default a:hover {
 	color:#a0a0a0;
 	transition: all.4s ease;
@@ -38,8 +40,6 @@ h1,h2,h3,h4,h5,h6,p {
 	-moz-transition: all.4s ease;
 	-webkit-transition: all.4s ease;
 }
-
-
 
 .carousel-item {
   height: 80vh;
@@ -80,13 +80,16 @@ h1,h2,h3,h4,h5,h6,p {
   display: flex;
   flex-wrap:wrap;
 }
+
 .porfolio-item{
   margin: 10px;
   display: flex;
 }
+
 .portfolioRight{
   flex-direction: row-reverse;
 }
+
 .portfolioLeft{
   flex-direction: row;
 }
@@ -145,18 +148,22 @@ h1,h2,h3,h4,h5,h6,p {
 .about{
   min-height: 40vh;
 }
+
 .about h1{
   margin: 10px;
   text-align: center;
 }
+
 footer{
   display: flex;
   flex-direction: column;
 }
+
 footer a{
   text-decoration:none;
 	color:#fafafa;
 }
+
 footer a:hover {
 	color:#a0a0a0;
 	transition: all.4s ease;
@@ -165,11 +172,13 @@ footer a:hover {
 	-moz-transition: all.4s ease;
 	-webkit-transition: all.4s ease;
 }
+
 .summary{
   display: flex;
   flex-wrap:wrap;
   justify-content:space-between;
 }
+
 .summary-item{
   margin: 20px;
   flex: 1;
