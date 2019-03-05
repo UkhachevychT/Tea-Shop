@@ -1,9 +1,17 @@
 html, body { 
 	height:100%;
-  background-color: #fff;
-  color:#000;
+  background-color: #181818;
+  color:#fafafa;
   margin: 5px 0 5px 0;
 }
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+
+
 
 .carousel-item {
   height: 80vh;
@@ -15,9 +23,24 @@ html, body {
   background-size: cover;
 }
 
-.sect {
-  min-height: 500px; 
-	height: 70%;
+#QuoteCarousel {
+  height: 40vh;
+  background-image: url("../img/paralax-2.jpg");
+}
+
+#QuoteCarousel .carousel-item {
+  height: 20vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.paralax {
+  /* min-height: 500px;  */
+	height: 70vh;
 	background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -26,16 +49,20 @@ html, body {
 }
 
 .porfolio-item{
+  margin: 10px;
   display: flex;
+  /* justify-content: space-evenly; */
 }
 
 .porfolio-img{
   flex: 1;
-  /* max-height: 480px; */
+  height: 480px;
+  width: auto;
 }
 
 .portfolio-text{
   flex: 2;
+  align-self: center;
 }
 
 .selection{
@@ -44,8 +71,25 @@ html, body {
   justify-content:space-evenly;
 }
 
+.selection-item img{
+  height: 240px;
+  width: auto;
+}
 
-
+.subscribtion {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.subscribtion-form{
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+}
 
 
 
